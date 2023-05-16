@@ -1,11 +1,2 @@
-class Solution(object):
-    def fizzBuzz(n, m):
-        """
-        :type n: int
-        :type m: int
-        """
-        n = input()
-        m = input()
-        a = n*m
-        print(a/2)
-        
+m, n = map(int, input().split()) 
+print(int(m*n / 2))
