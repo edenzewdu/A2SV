@@ -8,4 +8,4 @@ class Solution(object):
         ans = [None]*len(s)
         for i in range(len(s)):
             ans[int(s[i][-1])-1] = s[i][:-1]
-        return ' '.join(r)
+        return ' '.join(ans)
